@@ -45,7 +45,7 @@ const getStatsForSlot = (master) => {
     .map((x) => x.length)
     .reduce((p, n) => Math.max(p, n));
 
-  const risk = num_hosts === 1 ? 1 : (max_on_same_host - 1) / (num_hosts - 1);
+  const risk = nodes.length === 1 ? 1 : (max_on_same_host - 1) / (nodes.length - 1);
 
   return {
     nodes,
