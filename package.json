@@ -1,0 +1,26 @@
+{
+  "name": "redis-topology-monitor",
+  "version": "0.1.0",
+  "description": "Tools to help monitor the topology of a redis cluster",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaishnavsm/redis-topology-monitor.git"
+  },
+  "keywords": [
+    "redis",
+    "redis-monitoring"
+  ],
+  "author": "vaishnavsm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaishnavsm/redis-topology-monitor/issues"
+  },
+  "homepage": "https://github.com/vaishnavsm/redis-topology-monitor#readme",
+  "dependencies": {
+    "redis": "^4.6.10"
+  }
+}
