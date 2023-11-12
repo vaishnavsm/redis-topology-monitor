@@ -4,7 +4,11 @@
   "description": "Tools to help monitor the topology of a redis cluster",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node ./src/dev.js",
+    "cli": "node ./src/index.js"
+  },
+  "bin": {
+    "redis-topology-monitor": "./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +25,7 @@
   },
   "homepage": "https://github.com/vaishnavsm/redis-topology-monitor#readme",
   "dependencies": {
+    "commander": "^11.1.0",
     "redis": "^4.6.10"
   }
 }
